@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_news_image_view_size">76dp</dimen>
+    <dimen name="item_news_margins_size">14dp</dimen>
+    <dimen name="item_news_title_text_size">20sp</dimen>
+    <dimen name="item_news_framelayout_height">32dp</dimen>
+
+    <dimen name="item_viewpager_imageview_height">200dp</dimen>
+    <dimen name="item_viewpager_textview_margin">14dp</dimen>
+    <dimen name="item_viewpager_textview_title_text_size">22sp</dimen>
+    <dimen name="item_viewpager_textview_description_text_size">16sp</dimen>
+</resources>

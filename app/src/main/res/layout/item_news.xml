@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="@dimen/item_news_image_view_size"
+        android:layout_height="@dimen/item_news_image_view_size"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/newsTitle"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/item_news_margins_size"
+        android:layout_marginTop="@dimen/item_news_margins_size"
+        android:layout_marginEnd="@dimen/item_news_margins_size"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/item_news_title_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/newsImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="This is News Title. When we get in second line it will be light gray" />
+
+    <FrameLayout
+        android:id="@+id/gradientBottom"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/item_news_framelayout_height"
+        android:background="@color/middleGradientColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newsImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

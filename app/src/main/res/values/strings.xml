@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News App MVVM</string>
+    <string name="greska">Greška</string>
+    <string name="ups_doslo_je_do_pogreske">Ups, došlo je do pogreške</string>
+    <string name="u_redu">U redu</string>
+    <string name="picture_of_a_article">Picture of a article</string>
+    <string name="dohvacam_podatke">Dohvaćam podatke</string>
+</resources>
